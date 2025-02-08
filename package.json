@@ -2,7 +2,7 @@
   "name": "custom-voice-ai-dashboard",
   "version": "1.0.0",
   "scripts": {
-    "dev": "PORT=3007 next dev",
+    "dev": "PORT=3010 next dev",
     "build": "next build",
     "start": "next start"
   },

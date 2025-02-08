@@ -24,3 +24,11 @@ export function formatDuration(durationInSeconds: number): string {
   const seconds = durationInSeconds % 60;
   return `${minutes}m ${seconds}s`;
 }
+
+export function formatDate(date: Date): string {
+  return date.toLocaleDateString();
+}
+
+export function formatTime(date: Date): string {
+  return date.toLocaleTimeString();
+}
